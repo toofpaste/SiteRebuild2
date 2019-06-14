@@ -1,0 +1,350 @@
+
+.context {
+  text-align: center;
+}
+
+.sidebar {
+  background: #eeeeee;
+  color: white;
+  overflow-y: auto;
+  position: absolute;
+  right: -300px;
+  top: 0px;
+  transition: all .6s ease-out;
+  width: 300px;
+  height: 100%;
+}
+
+.sidebar ul {
+  margin: 0px;
+  padding: 55px 0px;
+  list-style: none;
+  border-left: 1px solid #eeeeee;
+}
+
+.sidebar li {
+  padding: 15px;
+  background: #dddddd;
+}
+
+.sidebar li:hover {
+  background: #bbbbbb;
+}
+
+.sidebar a {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 7px;
+  height: 1px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  border-radius: 7px;
+  background-color: #F5F5F5;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #555;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+.menu-btn {
+  top: 8px;
+  right: 0px;
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  margin: 7.5px;
+  padding: 5px;
+  transition: all .5s ease-out;
+}
+
+.menu-btn span {
+  background-color: black;
+  border-radius: 5px;
+  display: block;
+  height: 3px;
+  margin: 5px auto;
+  transition: transform .8s ease;
+  width: 30px;
+}
+
+input[class="menu-cek"] {
+  display: none;
+}
+
+.menu-cek:checked~.sidebar {
+  right: 0px;
+}
+
+.menu-cek:checked~.menu-btn {
+  right: 300px;
+}
+
+.menu-cek:checked~label .top {
+  -webkit-transform: translateY(7.5px) rotate(-45deg);
+  -moz-transform: translateY(7.5px) rotate(-45deg);
+  -ms-transform: translateY(7.5px) rotate(-45deg);
+  -o-transform: translateY(7.5px) rotate(-45deg);
+  transform: translateY(7.5px) rotate(-45deg);
+}
+
+.menu-cek:checked~label .middle {
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.menu-cek:checked~label .bottom {
+  -webkit-transform: translateY(-7.5px) rotate(45deg);
+  -moz-transform: translateY(-7.5px) rotate(45deg);
+  -ms-transform: translateY(-7.5px) rotate(45deg);
+  -o-transform: translateY(-7.5px) rotate(45deg);
+  transform: translateY(-7.5px) rotate(45deg);
+}
+.bodyNav {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.42857;
+
+}
+
+.pClass {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bolder;
+  color: #333333;
+  line-height: 1.42857;
+}
+
+.nav-tabs {
+  margin-top: -3px;
+  margin-bottom: 10px;
+  margin-left: -8px;
+  margin-right: 0px;
+}
+
+.nav-tabs {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+
+.nav,
+.nav-tabs {
+  position: relative;
+  background-color: #bfdeff;
+  height: 50px;
+  color: white;
+}
+
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+nav,
+.nav-tabs > li > a {
+  font-weight: bolder;
+  color: #0d61ba;
+  text-decoration-line: none;
+  position: relative;
+  display: block;
+  padding-top: 1px;
+  padding-right: 4px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+}
+
+nav, .nav-tabs > li.active a, nav, .nav-tabs > li.active a:hover, nav,
+.nav-tabs > li.active a:focus {
+  background-color: #f4f9ff;
+  color: #238eff;
+  font-weight: bolder;
+  text-decoration-line: none;
+}
+
+.tab-content {
+  color: white;
+  background-color: #e6e6e6;
+  padding: 5px 15px;
+}
+
+.tab-content > .tab-pane{
+  display: none;
+}
+
+.tab-content > .active{
+  display: block;
+}
+
+li.active a:before {
+  border-color: #f4f9ff transparent transparent transparent;
+  border-style: solid;
+  border-width: 8px 8px 0px 8px;
+  content: "";
+  display: block;
+  left: calc(50% - 10px);
+  position: absolute;
+  width: 0px;
+  top: 18px;
+  z-index: 10;
+}
+
+.siteGuide {
+  background-color: #ddeeff;
+  color: #0d61ba;
+  font-weight: 900;
+  text-decoration-line: none;
+  font-size: 12px;
+  margin-top: 32px;
+  margin-left: 40px;
+  margin-right: -31px;
+}
+
+#siteLogo img {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+#siteLogo p {
+  margin-top: 17px;
+  margin-right: -20px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+}
+
+.siteTopRight1 img, .siteTopRight2 img, .siteTopRight3 img, .siteTopRight4 img, .siteTopRight5 img, .siteTopRight6 img, .siteTopRight7 img {
+  height: 15px;
+  width: 15px;
+}
+
+.siteTopRight7 {
+  position: absolute;
+  font-size: 11px;
+  background-color: #ddeeff;
+  color: #0d61ba;
+  text-decoration-line: none;
+  right: 0;
+  margin-top: 4px;
+  margin-bottom: 3px;
+  height: 21px;
+}
+
+.siteTopRight6 {
+  position: absolute;
+  font-size: 11px;
+  background-color: #ddeeff;
+  color: #0d61ba;
+  text-decoration-line: none;
+  right: 40px;
+  margin-top: 4px;
+}
+
+.siteTopRight5 {
+  position: absolute;
+  font-size: 11px;
+  background-color: #ddeeff;
+  color: #0d61ba;
+  text-decoration-line: none;
+  right: 69px;
+  margin-top: 4px;
+
+}
+
+.siteTopRight4 {
+  position: absolute;
+  font-size: 11px;
+  background-color: #ddeeff;
+  color: #0d61ba;
+  text-decoration-line: none;
+  right: 98px;
+  margin-top: 4px;
+
+}
+.tab-content{
+  position: relative;
+}
+.tab-pane img{
+  width: 75px;
+  height: 75px;
+}
+.tab-pane{
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.postImage{
+  left: 50px;
+  margin-bottom: 5px;
+  position: absolute;
+}
+.postInfo{
+  position: absolute;
+  left: 130px;
+  color: red;
+  padding-top: 37px;
+}
+.postSource{
+  left: 130px;
+  padding-top: 50px;
+  position: absolute;
+  color: blue;
+}
+.postTitle{
+  font-size: 25px;
+  left: 130px;
+  position: absolute;
+  color: green;
+}
+.postVotes{
+  position: absolute;
+  left: 1px;
+  padding-top: 35px;
+  color: black;
+}
+.siteTopRight3 {
+  position: absolute;
+  font-size: 11px;
+  background-color: #ddeeff;
+  color: #0d61ba;
+  text-decoration-line: none;
+  right: 127px;
+  margin-top: 4px;
+  height: 21px;
+
+}
+
+.siteTopRight2 {
+  position: absolute;
+  font-size: 11px;
+  background-color: #ddeeff;
+  color: #0d61ba;
+  text-decoration-line: none;
+  right: 288px;
+  margin-top: 4px;
+}
+
+.siteTopRight1 {
+  position: absolute;
+  font-size: 11px;
+  background-color: #ddeeff;
+  color: #0d61ba;
+  text-decoration-line: none;
+  right: 311px;
+  margin-top: 4px;
+  height: 21px;
+
+}
+

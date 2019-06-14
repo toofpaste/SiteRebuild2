@@ -1,3 +1,133 @@
-<p>
-  show-best works!
-</p>
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+</header>
+<div class="bodyNav">
+  <ul class="nav nav-tabs">
+    <li id = "siteLogo">
+      <p class="pClass"> <a href="#main-nav" class="open-menu"><img src="./assets/redditIcon.png"></a>{{title}}</p>
+    </li>
+
+    <li class="active siteGuide">
+      <a href="#tab1" (click)="showBest()" data-toggle="tab">best</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab2" (click)="showHot()" data-toggle="tab">hot</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab3" (click)="showNew()" data-toggle="tab">new</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4" (click)="showRising()" data-toggle="tab">rising</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4" (click)="showControversial()" data-toggle="tab">controversial</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4" (click)="showTop()" data-toggle="tab">top</a>
+    </li>
+    <li class="siteGuide">
+      <a href="https://en.wikipedia.org/wiki/Reddit" data-toggle="tab">wiki</a>
+    </li>
+    <li class="siteTopRight1">
+      <a href="#tab4" data-toggle="tab">  {{myUserName}}</a>
+    </li>
+    <li class="siteTopRight2">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/redditLogo.png"></a>
+    </li>
+    <li class="siteTopRight3">
+      <a href="#tab4" data-toggle="tab">(postKarma - CommentKarma)</a>
+    </li>
+    <li class="siteTopRight4">
+      <a href="#tab4" data-toggle="tab"> | <img src="./assets/mail.png"> | </a>
+    </li>
+    <li class="siteTopRight5">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/message.png"> |</a>
+    </li>
+    <li class="siteTopRight6">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/settings.png"> |</a>
+    </li>
+    <li class="siteTopRight7">
+      <a href="#tab4" data-toggle="tab">logout</a>
+    </li>
+
+  </ul>
+
+
+</div>
+<input type="checkbox" id="menu" class="menu-cek">
+<label for="menu" class="menu-btn">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</label>
+<section class="container">
+  <div class="tab-content">
+    <div *ngIf="showBestCheck">
+    <div class="tab-pane active" id="tab1" *ngFor="let post of masterPostList">
+      <p><span class="postVotes">{{post.upvotes}}</span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span>><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
+      <br>
+      <p>________________________________________________________________________________</p>
+      <br>
+    </div>
+    </div>
+<!--    // public title: string-->
+<!--    // public time: number-->
+<!--    // public username: string-->
+<!--    // public commentNum: number-->
+<!--    // public comments: string[]-->
+<!--    // public upvotes: number-->
+<!--    // public link: string-->
+<!--    // public thumbnail: string-->
+    <div *ngIf="showHotCheck">
+    <div class="tab-pane" id="tab2">
+      <p class="pClass">Tab 2 content goes here...</p>
+    </div>
+    </div>
+
+    <div *ngIf="showNewCheck">
+    <div class="tab-pane" id="tab3">
+      <p class="pClass">Tab 3 content goes here...</p>
+    </div>
+    </div>
+
+    <div *ngIf="showRisingCheck">
+    <div class="tab-pane" id="tab4">
+      <p class="pClass">Tab 4 content goes here...</p>
+    </div>
+    </div>
+
+    <div *ngIf="showControversialCheck">
+    <div class="tab-pane" id="tab5">
+      <p class="pClass">Tab 5 content goes here...</p>
+    </div>
+    </div>
+
+    <div *ngIf="showTopCheck">
+    <div class="tab-pane" id="tab6">
+      <p class="pClass">Tab 6 content goes here...</p>
+    </div>
+    </div>
+  </div>
+</section>
+<aside class="sidebar">
+  <ul>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+    <li><a href="#">item</a></li>
+  </ul>
+</aside>
