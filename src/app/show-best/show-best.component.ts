@@ -29,7 +29,8 @@ export class ShowBestComponent {
       this.comments,
       1300,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/sVvV1fq.jpg',
+      'r/nba'),
     new Posts(
       'A life size inflatable party boat!',
       5,
@@ -38,7 +39,8 @@ export class ShowBestComponent {
       this.comments,
       300,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/g5SDPRd.jpg'),
+      'https://i.imgur.com/g5SDPRd.jpg',
+      'r/warriors'),
     new Posts(
       'Deep-Faked Jon Snow apologies for Game of Thrones Season 8',
       5,
@@ -47,7 +49,8 @@ export class ShowBestComponent {
       this.comments,
       300,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/Nluzapw.jpg'),
+      'https://i.imgur.com/Nluzapw.jpg',
+      'r/Portland'),
     new Posts(
       'Cheesy Chicken Drumstick Poppers',
       1,
@@ -56,7 +59,8 @@ export class ShowBestComponent {
       this.comments,
       3020,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/BISeOkk.png'),
+      'https://i.imgur.com/BISeOkk.png',
+      'r/tifu'),
     new Posts(
       'Ohtani has hit for the cycle against the Rays',
       11,
@@ -65,7 +69,8 @@ export class ShowBestComponent {
       this.comments,
       320,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/Tszic45.png'),
+      'https://i.imgur.com/Tszic45.png',
+      'r/youtubehaiku'),
     new Posts(
       // tslint:disable-next-line:max-line-length
       'Once Stalled, A Cigarette Tax Hike Is Moving In Oregon Capitol -- Would raise taxes on cigarettes from $1.33 per pack to $3.33 per pack',
@@ -75,7 +80,8 @@ export class ShowBestComponent {
       this.comments,
       7732,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/Jhjulrz.jpg'),
+      'https://i.imgur.com/Jhjulrz.jpg',
+      'r/dataisbeautiful'),
     new Posts(
       'TIFU by not openning a gift for 1.5 years',
       2,
@@ -84,7 +90,8 @@ export class ShowBestComponent {
       this.comments,
       7232,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/lbxvdDG.jpg'),
+      'https://i.imgur.com/lbxvdDG.jpg',
+      'r/gifs'),
     new Posts(
       'Why there is no cat food with mouse flavour?',
       6,
@@ -93,7 +100,8 @@ export class ShowBestComponent {
       this.comments,
       7,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/62R6k5O.jpg'),
+      'https://i.imgur.com/62R6k5O.jpg',
+      'r/pics'),
     new Posts(
       'We Read 150 Privacy Policies. They Were an Incomprehensible Disaster.',
       2,
@@ -102,7 +110,8 @@ export class ShowBestComponent {
       this.comments,
       28337,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/Bv8GpYv.jpg'),
+      'https://i.imgur.com/Bv8GpYv.jpg',
+      'r/yesyesyesno'),
     new Posts(
       'ULPT: Get a free full medical work up by pretending you want to donate a kidney to an anonymous recipient then change your mind',
       3,
@@ -111,7 +120,8 @@ export class ShowBestComponent {
       this.comments,
       8337,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/xAMvryS.jpg'),
+      'https://i.imgur.com/xAMvryS.jpg',
+      'r/unethicallifeprotips'),
     new Posts(
       'what is this',
       19,
@@ -120,7 +130,8 @@ export class ShowBestComponent {
       this.comments,
       2937,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/iHTPCUu.jpg'),
+      'https://i.imgur.com/iHTPCUu.jpg',
+      'r/whatisthisthing'),
     new Posts(
       'Where’s a good spot in Lahaina to catch the NBA Finals?',
       11,
@@ -129,7 +140,8 @@ export class ShowBestComponent {
       this.comments,
       81,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/JDT7EHK.jpg'),
+      'https://i.imgur.com/JDT7EHK.jpg',
+      'r/oddlysatisfying'),
     new Posts(
       'Made my first proper survival base as a bunker in a mountain',
       9,
@@ -138,7 +150,8 @@ export class ShowBestComponent {
       this.comments,
       811,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/UglSAL1.jpg'),
+      'https://i.imgur.com/UglSAL1.jpg',
+      'r/spaceengineers'),
     new Posts(
       'Still amazing without the effects',
       19,
@@ -147,7 +160,8 @@ export class ShowBestComponent {
       this.comments,
       1356,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/L8oCVzE.jpg'),
+      'https://i.imgur.com/L8oCVzE.jpg',
+      'r/SFGiants'),
     new Posts(
       'was trying to show to a friend how controls work, did a pretty good 1min line',
       3,
@@ -156,7 +170,8 @@ export class ShowBestComponent {
       this.comments,
       3020,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/eWPdY2H.jpg'),
+      'https://i.imgur.com/eWPdY2H.jpg',
+      'r/pics'),
     new Posts(
       'Lazy God',
       19,
@@ -165,7 +180,8 @@ export class ShowBestComponent {
       this.comments,
       2983,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/gINHgOK.jpg'),
+      'https://i.imgur.com/gINHgOK.jpg',
+      'r/jesuschristreddit'),
     new Posts(
       'LED strip that responds to the colors on the tv',
       1,
@@ -174,7 +190,8 @@ export class ShowBestComponent {
       this.comments,
       5020,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/IG23N82.jpg'),
+      'https://i.imgur.com/IG23N82.jpg',
+      'r/holdmycosmo'),
     new Posts(
       '[Question] How strong is the anti-vaccination movement in your country?',
       13,
@@ -183,7 +200,8 @@ export class ShowBestComponent {
       this.comments,
       3290,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/MN7Hren.jpg'),
+      'https://i.imgur.com/MN7Hren.jpg',
+      'r/holdmybeer'),
     new Posts(
       // tslint:disable-next-line:max-line-length
       'They just don’t understand ',
@@ -193,7 +211,8 @@ export class ShowBestComponent {
       this.comments,
       772,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/lYCITwp.jpg'),
+      'https://i.imgur.com/lYCITwp.jpg',
+      'r/holdmyfeedingtube'),
     new Posts(
       'Conan Announces His Trip To Ghana',
       1,
@@ -202,7 +221,8 @@ export class ShowBestComponent {
       this.comments,
       9824,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/q3Dmiuw.jpg'),
+      'https://i.imgur.com/q3Dmiuw.jpg',
+      'r/holdmyredbull'),
     new Posts(
       'This man slashing wood.',
       3,
@@ -211,7 +231,8 @@ export class ShowBestComponent {
       this.comments,
       27,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/CKfkR1M.jpg'),
+      'https://i.imgur.com/CKfkR1M.jpg',
+      'r/steamhunt'),
     new Posts(
       'Fruit of the Loom, the best rap duo in the business ',
       21,
@@ -220,7 +241,8 @@ export class ShowBestComponent {
       this.comments,
       18337,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/IqK6Q9L.jpg'),
+      'https://i.imgur.com/IqK6Q9L.jpg',
+      'r/bikinibottomtwitter'),
     new Posts(
       'I Love these people',
       3,
@@ -229,7 +251,8 @@ export class ShowBestComponent {
       this.comments,
       5337,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/Ove3vSx.jpg'),
+      'https://i.imgur.com/Ove3vSx.jpg',
+      'r/battlecars'),
     new Posts(
       'Dont be fooled by the flavour',
       9,
@@ -238,7 +261,8 @@ export class ShowBestComponent {
       this.comments,
       2517,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/PRNbda9.jpg'),
+      'https://i.imgur.com/PRNbda9.jpg',
+      'r/battlefield'),
     new Posts(
       'trapdoor spider',
       21,
@@ -247,7 +271,8 @@ export class ShowBestComponent {
       this.comments,
       801,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/eilNaAa.jpg'),
+      'https://i.imgur.com/eilNaAa.jpg',
+      'r/gaming'),
     new Posts(
       'Hes literally the guy in both pics',
       3,
@@ -256,7 +281,8 @@ export class ShowBestComponent {
       this.comments,
       8111,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/F2ZtOrX.jpg')
+      'https://i.imgur.com/F2ZtOrX.jpg',
+      'r/pcmasterrace')
   ];
 
   showBest() {
