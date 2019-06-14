@@ -15,6 +15,8 @@ export class ShowBestComponent {
   showControversialCheck = false;
   showTopCheck = false;
   showCommentsCheck = false;
+  postKarma = '5,432';
+  commentKarma = '9,234';
   myUserName = 'XxXTheBestUserXxX';
   // tslint:disable-next-line:max-line-length
   comments: string[] = ['LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice', 'LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice', 'LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice', 'LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice', 'LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice'];
@@ -261,6 +263,7 @@ export class ShowBestComponent {
     this.hideAll();
     this.showBestCheck = true;
   }
+
   showHot() {
     this.hideAll();
     let check = false;
@@ -268,13 +271,15 @@ export class ShowBestComponent {
     const hold = [];
     while (!check) {
       check = true;
-      for(let i = 0; i < this.masterPostList.length - count; i++){
+      for (let i = 0; i < this.masterPostList.length - count; i++) {
         // tslint:disable-next-line:max-line-length
-        if((this.masterPostList[i].upvotes / this.masterPostList[i].commentNum) > (this.masterPostList[i+1].upvotes / this.masterPostList[i+1].commentNum)) {
+        if ((this.masterPostList[i].upvotes / this.masterPostList[i].commentNum) > (this.masterPostList[i + 1].upvotes / this.masterPostList[i + 1].commentNum)) {
           hold.push(this.masterPostList[i]);
           hold.push(this.masterPostList[i + 1]);
           this.masterPostList[i] = hold[1];
           this.masterPostList[i + 1] = hold[0];
+          hold.pop();
+          hold.pop();
           check = false;
           count++;
         }
@@ -282,20 +287,23 @@ export class ShowBestComponent {
     }
     this.showHotCheck = true;
   }
-  showNew(){
+
+  showNew() {
     this.hideAll();
     let check = false;
     let count = 0;
     const hold = [];
     while (!check) {
       check = true;
-      for(let i = 0; i < this.masterPostList.length - count; i++){
+      for (let i = 0; i < this.masterPostList.length - count; i++) {
         // tslint:disable-next-line:max-line-length
-        if((this.masterPostList[i].time) > (this.masterPostList[i + 1].time)) {
+        if ((this.masterPostList[i].time) > (this.masterPostList[i + 1].time)){
           hold.push(this.masterPostList[i]);
           hold.push(this.masterPostList[i + 1]);
           this.masterPostList[i] = hold[1];
           this.masterPostList[i + 1] = hold[0];
+          hold.pop();
+          hold.pop();
           check = false;
           count++;
         }
@@ -303,20 +311,23 @@ export class ShowBestComponent {
     }
     this.showNewCheck = true;
   }
-  showRising(){
+
+  showRising() {
     this.hideAll();
     let check = false;
     let count = 0;
     const hold = [];
     while (!check) {
       check = true;
-      for(let i = 0; i < this.masterPostList.length - count; i++){
+      for (let i = 0; i < this.masterPostList.length - count; i++) {
         // tslint:disable-next-line:max-line-length
-        if((this.masterPostList[i].upvotes / this.masterPostList[i].time) > (this.masterPostList[i+1].upvotes / this.masterPostList[i + 1].time)) {
+        if ((this.masterPostList[i].upvotes / this.masterPostList[i].time) > (this.masterPostList[i + 1].upvotes / this.masterPostList[i + 1].time)) {
           hold.push(this.masterPostList[i]);
           hold.push(this.masterPostList[i + 1]);
           this.masterPostList[i] = hold[1];
           this.masterPostList[i + 1] = hold[0];
+          hold.pop();
+          hold.pop();
           check = false;
           count++;
         }
@@ -324,20 +335,23 @@ export class ShowBestComponent {
     }
     this.showRisingCheck = true;
   }
-  showControversial(){
+
+  showControversial() {
     this.hideAll();
     let check = false;
     let count = 0;
     const hold = [];
     while (!check) {
       check = true;
-      for(let i = 0; i < this.masterPostList.length - count; i++){
+      for (let i = 0; i < this.masterPostList.length - count; i++) {
         // tslint:disable-next-line:max-line-length
-        if((this.masterPostList[i].upvotes / this.masterPostList[i].commentNum) < (this.masterPostList[i+1].upvotes / this.masterPostList[i+1].commentNum)) {
+        if ((this.masterPostList[i].upvotes / this.masterPostList[i].commentNum) < (this.masterPostList[i + 1].upvotes / this.masterPostList[i + 1].commentNum)) {
           hold.push(this.masterPostList[i]);
           hold.push(this.masterPostList[i + 1]);
           this.masterPostList[i] = hold[1];
           this.masterPostList[i + 1] = hold[0];
+          hold.pop();
+          hold.pop();
           check = false;
           count++;
         }
@@ -345,20 +359,23 @@ export class ShowBestComponent {
     }
     this.showControversialCheck = true;
   }
-  showTop(){
+
+  showTop() {
     this.hideAll();
     let check = false;
     let count = 0;
     const hold = [];
     while (!check) {
       check = true;
-      for(let i = 0; i < this.masterPostList.length - count; i++){
+      for (let i = 0; i < this.masterPostList.length - count; i++) {
         // tslint:disable-next-line:max-line-length
-        if((this.masterPostList[i].upvotes) < (this.masterPostList[i + 1].upvotes)) {
+        if ((this.masterPostList[i].upvotes) < (this.masterPostList[i + 1].upvotes)) {
           hold.push(this.masterPostList[i]);
           hold.push(this.masterPostList[i + 1]);
           this.masterPostList[i] = hold[1];
           this.masterPostList[i + 1] = hold[0];
+          hold.pop();
+          hold.pop();
           check = false;
           count++;
         }
@@ -366,11 +383,13 @@ export class ShowBestComponent {
     }
     this.showTopCheck = true;
   }
-  showComments(){
+
+  showComments() {
     this.hideAll();
     this.showCommentsCheck = true;
   }
-  hideAll(){
+
+  hideAll() {
     this.showBestCheck = false;
     this.showHotCheck = false;
     this.showNewCheck = false;
@@ -380,6 +399,7 @@ export class ShowBestComponent {
     this.showCommentsCheck = false;
   }
 }
+
 // public title: string
 // public time: number
 // public username: string

@@ -2,7 +2,11 @@
 .context {
   text-align: center;
 }
-
+h4{
+  color: #919191;
+  font-size: 26px;
+  font-weight: 900;
+}
 .sidebar {
   background: #eeeeee;
   color: white;
@@ -272,10 +276,11 @@ li.active a:before {
   right: 98px;
   margin-top: 4px;
 }
+
 .tab-content{
   position: relative;
 }
-.tab-pane img{
+.tab-pane .postImage img{
   border-radius: 25px;
   width: 75px;
   height: 75px;
@@ -323,6 +328,20 @@ li.active a:before {
   padding-top: 40px;
   color: #919191;
 }
+.up img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 20px;
+  padding-top: 11px;
+}
+.down img{
+  position: absolute;
+  height: 20px;
+  width: 30px;
+  left: 20px;
+  padding-top: 65px;
+}
 .siteTopRight3 {
   position: absolute;
   font-size: 11px;
@@ -341,7 +360,7 @@ li.active a:before {
   background-color: #ddeeff;
   color: #0d61ba;
   text-decoration-line: none;
-  right: 288px;
+  right: 210px;
   margin-top: 4px;
 }
 
@@ -351,9 +370,12 @@ li.active a:before {
   background-color: #ddeeff;
   color: #0d61ba;
   text-decoration-line: none;
-  right: 311px;
+  right: 233px;
   margin-top: 4px;
   height: 21px;
 
 }
+
+
+
 

@@ -36,7 +36,7 @@
       <a href="#tab4" data-toggle="tab"><img src="./assets/redditLogo.png"></a>
     </li>
     <li class="siteTopRight3">
-      <a href="#tab4" data-toggle="tab">(postKarma - CommentKarma)</a>
+      <a href="#tab4" data-toggle="tab">({{postKarma}} - {{commentKarma}})</a>
     </li>
     <li class="siteTopRight4">
       <a href="#tab4" data-toggle="tab"> | <img src="./assets/mail.png"> | </a>
@@ -66,7 +66,7 @@
     <div *ngIf="showBestCheck">
       <h4>Best Reddit Posts</h4>
     <div class="tab-pane active" id="tab1" *ngFor="let post of masterPostList">
-      <p><span class="postVotes">{{post.upvotes}}</span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
+      <p><span class="up"><img src="./assets/upArrow.png"></span><span class="postVotes">{{post.upvotes}}</span><span class="down"><img src="./assets/downArrow.png"></span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
       <br>
       <br>
       <br>
@@ -83,7 +83,7 @@
     <div *ngIf="showHotCheck">
       <h4>Hottest Reddit Posts</h4>
       <div class="tab-pane active" id="tab1" *ngFor="let post of masterPostList">
-        <p><span class="postVotes">{{post.upvotes}}</span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
+        <p><span class="up"><img src="./assets/upArrow.png"></span><span class="postVotes">{{post.upvotes}}</span><span class="down"><img src="./assets/downArrow.png"></span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
         <br>
         <br>
         <br>
@@ -93,7 +93,7 @@
     <div *ngIf="showNewCheck">
       <h4>Newest Reddit Posts</h4>
       <div class="tab-pane active" id="tab1" *ngFor="let post of masterPostList">
-        <p><span class="postVotes">{{post.upvotes}}</span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
+        <p><span class="up"><img src="./assets/upArrow.png"></span><span class="postVotes">{{post.upvotes}}</span><span class="down"><img src="./assets/downArrow.png"></span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
         <br>
         <br>
         <br>
@@ -103,7 +103,7 @@
     <div *ngIf="showRisingCheck">
       <h4>Top Rising Posts</h4>
       <div class="tab-pane active" id="tab1" *ngFor="let post of masterPostList">
-        <p><span class="postVotes">{{post.upvotes}}</span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
+        <p><span class="up"><img src="./assets/upArrow.png"></span><span class="postVotes">{{post.upvotes}}</span><span class="down"><img src="./assets/downArrow.png"></span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
         <br>
         <br>
         <br>
@@ -113,7 +113,7 @@
     <div *ngIf="showControversialCheck">
       <h4>Top Controversial Posts</h4>
       <div class="tab-pane active" id="tab1" *ngFor="let post of masterPostList">
-        <p><span class="postVotes">{{post.upvotes}}</span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
+        <p><span class="up"><img src="./assets/upArrow.png"></span><span class="postVotes">{{post.upvotes}}</span><span class="down"><img src="./assets/downArrow.png"></span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
         <br>
         <br>
         <br>
@@ -123,7 +123,7 @@
     <div *ngIf="showTopCheck">
       <h4>Top Reddit Posts</h4>
       <div class="tab-pane active" id="tab1" *ngFor="let post of masterPostList">
-        <p><span class="postVotes">{{post.upvotes}}</span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
+        <p><span class="up"><img src="./assets/upArrow.png"></span><span class="postVotes">{{post.upvotes}}</span><span class="down"><img src="./assets/downArrow.png"></span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span class="postTitle">{{post.title}}</span><br> <span class="postInfo">Uploaded {{post.time}} hours ago by: {{post.username}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a href="{{post.link}}">source</a></span></p>
         <br>
         <br>
         <br>
