@@ -36,7 +36,7 @@ export class ShowBestComponent {
       this.comments,
       300,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/g5SDPRd.jpg'),
     new Posts(
       'Deep-Faked Jon Snow apologies for Game of Thrones Season 8',
       5,
@@ -45,7 +45,7 @@ export class ShowBestComponent {
       this.comments,
       300,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/Nluzapw.jpg'),
     new Posts(
       'Cheesy Chicken Drumstick Poppers',
       1,
@@ -54,7 +54,7 @@ export class ShowBestComponent {
       this.comments,
       3020,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/BISeOkk.png'),
     new Posts(
       'Ohtani has hit for the cycle against the Rays',
       11,
@@ -63,7 +63,7 @@ export class ShowBestComponent {
       this.comments,
       320,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/Tszic45.png'),
     new Posts(
       // tslint:disable-next-line:max-line-length
       'Once Stalled, A Cigarette Tax Hike Is Moving In Oregon Capitol -- Would raise taxes on cigarettes from $1.33 per pack to $3.33 per pack',
@@ -73,7 +73,7 @@ export class ShowBestComponent {
       this.comments,
       7732,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/Jhjulrz.jpg'),
     new Posts(
       'TIFU by not openning a gift for 1.5 years',
       2,
@@ -82,7 +82,7 @@ export class ShowBestComponent {
       this.comments,
       7232,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/lbxvdDG.jpg'),
     new Posts(
       'Why there is no cat food with mouse flavour?',
       6,
@@ -91,7 +91,7 @@ export class ShowBestComponent {
       this.comments,
       7,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/62R6k5O.jpg'),
     new Posts(
       'We Read 150 Privacy Policies. They Were an Incomprehensible Disaster.',
       2,
@@ -100,7 +100,7 @@ export class ShowBestComponent {
       this.comments,
       28337,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/Bv8GpYv.jpg'),
     new Posts(
       'ULPT: Get a free full medical work up by pretending you want to donate a kidney to an anonymous recipient then change your mind',
       3,
@@ -109,7 +109,7 @@ export class ShowBestComponent {
       this.comments,
       8337,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/xAMvryS.jpg'),
     new Posts(
       'what is this',
       19,
@@ -118,7 +118,7 @@ export class ShowBestComponent {
       this.comments,
       2937,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/iHTPCUu.jpg'),
     new Posts(
       'Where’s a good spot in Lahaina to catch the NBA Finals?',
       11,
@@ -127,7 +127,7 @@ export class ShowBestComponent {
       this.comments,
       81,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/JDT7EHK.jpg'),
     new Posts(
       'Made my first proper survival base as a bunker in a mountain',
       9,
@@ -136,7 +136,7 @@ export class ShowBestComponent {
       this.comments,
       811,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/UglSAL1.jpg'),
     new Posts(
       'Still amazing without the effects',
       19,
@@ -145,7 +145,7 @@ export class ShowBestComponent {
       this.comments,
       1356,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/L8oCVzE.jpg'),
     new Posts(
       'was trying to show to a friend how controls work, did a pretty good 1min line',
       3,
@@ -154,7 +154,7 @@ export class ShowBestComponent {
       this.comments,
       3020,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/eWPdY2H.jpg'),
     new Posts(
       'Lazy God',
       19,
@@ -163,7 +163,7 @@ export class ShowBestComponent {
       this.comments,
       2983,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/gINHgOK.jpg'),
     new Posts(
       'LED strip that responds to the colors on the tv',
       1,
@@ -172,7 +172,7 @@ export class ShowBestComponent {
       this.comments,
       5020,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/IG23N82.jpg'),
     new Posts(
       '[Question] How strong is the anti-vaccination movement in your country?',
       13,
@@ -181,7 +181,7 @@ export class ShowBestComponent {
       this.comments,
       3290,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/MN7Hren.jpg'),
     new Posts(
       // tslint:disable-next-line:max-line-length
       'They just don’t understand ',
@@ -191,7 +191,7 @@ export class ShowBestComponent {
       this.comments,
       772,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/lYCITwp.jpg'),
     new Posts(
       'Conan Announces His Trip To Ghana',
       1,
@@ -200,7 +200,7 @@ export class ShowBestComponent {
       this.comments,
       9824,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/q3Dmiuw.jpg'),
     new Posts(
       'This man slashing wood.',
       3,
@@ -209,52 +209,52 @@ export class ShowBestComponent {
       this.comments,
       27,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/CKfkR1M.jpg'),
     new Posts(
-      'We Read 150 Privacy Policies. They Were an Incomprehensible Disaster.',
-      2,
+      'Fruit of the Loom, the best rap duo in the business ',
+      21,
       'User8',
-      315,
+      3215,
       this.comments,
-      28337,
+      18337,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/IqK6Q9L.jpg'),
     new Posts(
-      'ULPT: Get a free full medical work up by pretending you want to donate a kidney to an anonymous recipient then change your mind',
+      'I Love these people',
       3,
       'User9',
-      335,
+      535,
       this.comments,
-      8337,
+      5337,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
+      'https://i.imgur.com/Ove3vSx.jpg'),
     new Posts(
-      'what is this',
-      19,
-      'User10',
-      3385,
-      this.comments,
-      2937,
-      'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
-    new Posts(
-      'Where’s a good spot in Lahaina to catch the NBA Finals?',
-      11,
-      'User11',
-      85,
-      this.comments,
-      81,
-      'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg'),
-    new Posts(
-      'Made my first proper survival base as a bunker in a mountain',
+      'Dont be fooled by the flavour',
       9,
-      'User12',
-      85,
+      'User10',
+      885,
       this.comments,
-      811,
+      2517,
       'https://i.imgur.com/rsD0RUq.jpg',
-      'https://i.imgur.com/sVvV1fq.jpg')
+      'https://i.imgur.com/PRNbda9.jpg'),
+    new Posts(
+      'trapdoor spider',
+      21,
+      'User11',
+      805,
+      this.comments,
+      801,
+      'https://i.imgur.com/rsD0RUq.jpg',
+      'https://i.imgur.com/eilNaAa.jpg'),
+    new Posts(
+      'Hes literally the guy in both pics',
+      3,
+      'User12',
+      534,
+      this.comments,
+      8111,
+      'https://i.imgur.com/rsD0RUq.jpg',
+      'https://i.imgur.com/F2ZtOrX.jpg')
   ];
 
   showBest() {
