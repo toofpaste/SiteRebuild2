@@ -5,10 +5,6 @@
   line-height: 1.42857;
 
 }
-#siteLogo img{
-  width: 30px;
-  height: 30px;
-}
 
 p  /*Personalizado Bootstrap*/
 {
@@ -64,7 +60,7 @@ nav,
 .nav-tabs > li.active a:hover,
 nav,
 .nav-tabs > li.active a:focus {
-  background-color: #d6eaff;
+  background-color: #f4f9ff;
   color: #238eff;
   font-weight: bolder;
   text-decoration-line: none;
@@ -85,18 +81,31 @@ nav,
 li.active a:before{
   border-color: #0257b5 transparent transparent transparent;
   border-style: solid;
-  border-width: 10px 10px 0px 10px;
+  border-width: 8px 8px 0px 8px;
   content: "";
   display: block;
   left: calc(50% - 10px);
   position: absolute;
   width: 0px;
-  top: 70px;
+  top: 18px;
   z-index: 10;
 }
 
 .siteGuide{
-  font-size: 11px;
+  background-color: #d6eaff;
+  color: #238eff;
+  font-weight: 900;
+  text-decoration-line: none;
+  font-size: 12px;
   margin-top: 54px;
-  margin-left: 2%;
+  margin-left: 3%;
+}
+
+#siteLogo img{
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+#siteLogo p{
+  font-size: 25px;
 }
