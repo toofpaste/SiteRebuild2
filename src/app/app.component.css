@@ -29,9 +29,10 @@ ul, ol /*Padrão Bootstrap*/
   list-style-image: none;
   list-style-position: outside;
 }
+
 .nav,
 .nav-tabs {
-  background-color: #b2d8ff;
+  background-color: #bfdeff;
 
   height: 70px;
   color: white;
