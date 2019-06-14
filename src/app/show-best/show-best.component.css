@@ -271,48 +271,57 @@ li.active a:before {
   text-decoration-line: none;
   right: 98px;
   margin-top: 4px;
-
 }
 .tab-content{
   position: relative;
 }
 .tab-pane img{
+  border-radius: 25px;
   width: 75px;
   height: 75px;
 }
 .tab-pane{
+  border-radius: 25px;
   color: black;
+  background-color: #d3e4ff;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 .postImage{
-  left: 50px;
+  border-radius: 25px;
+  padding-top: 20px;
+  left: 63px;
   margin-bottom: 5px;
   position: absolute;
 }
 .postInfo{
   position: absolute;
-  left: 130px;
-  color: red;
-  padding-top: 37px;
+  left: 142px;
+  color: #a3a3a3;
+  padding-top: 46px;
 }
 .postSource{
-  left: 130px;
+  font-weight: 900;
+  left: 142px;
   padding-top: 50px;
   position: absolute;
-  color: blue;
+  color: #919191;
 }
 .postTitle{
-  font-size: 25px;
-  left: 130px;
+  font-weight: 900;
+  font-size: 23px;
+  left: 142px;
   position: absolute;
-  color: green;
+  padding-top:15px;
+  color: #2c66c1;
 }
 .postVotes{
+  font-weight: 900;
+  font-size: 20px;
   position: absolute;
-  left: 1px;
-  padding-top: 35px;
-  color: black;
+  left: 18px;
+  padding-top: 40px;
+  color: #919191;
 }
 .siteTopRight3 {
   position: absolute;
