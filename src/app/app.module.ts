@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ShowBestComponent } from './show-best/show-best.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShowBestComponent
   ],
   imports: [
     BrowserModule
