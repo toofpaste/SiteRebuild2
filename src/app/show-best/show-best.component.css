@@ -2,11 +2,13 @@
 .context {
   text-align: center;
 }
-h4{
+
+h4 {
   color: #919191;
   font-size: 26px;
   font-weight: 900;
 }
+
 .sidebar {
   background: #eeeeee;
   color: white;
@@ -83,15 +85,15 @@ input[class="menu-cek"] {
   display: none;
 }
 
-.menu-cek:checked~.sidebar {
+.menu-cek:checked ~ .sidebar {
   right: 0px;
 }
 
-.menu-cek:checked~.menu-btn {
+.menu-cek:checked ~ .menu-btn {
   right: 300px;
 }
 
-.menu-cek:checked~label .top {
+.menu-cek:checked ~ label .top {
   -webkit-transform: translateY(7.5px) rotate(-45deg);
   -moz-transform: translateY(7.5px) rotate(-45deg);
   -ms-transform: translateY(7.5px) rotate(-45deg);
@@ -99,7 +101,7 @@ input[class="menu-cek"] {
   transform: translateY(7.5px) rotate(-45deg);
 }
 
-.menu-cek:checked~label .middle {
+.menu-cek:checked ~ label .middle {
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -107,13 +109,14 @@ input[class="menu-cek"] {
   transform: scaleX(0);
 }
 
-.menu-cek:checked~label .bottom {
+.menu-cek:checked ~ label .bottom {
   -webkit-transform: translateY(-7.5px) rotate(45deg);
   -moz-transform: translateY(-7.5px) rotate(45deg);
   -ms-transform: translateY(-7.5px) rotate(45deg);
   -o-transform: translateY(-7.5px) rotate(45deg);
   transform: translateY(-7.5px) rotate(45deg);
 }
+
 .bodyNav {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
@@ -184,11 +187,11 @@ nav, .nav-tabs > li.active a, nav, .nav-tabs > li.active a:hover, nav,
   padding: 5px 15px;
 }
 
-.tab-content > .tab-pane{
+.tab-content > .tab-pane {
   display: none;
 }
 
-.tab-content > .active{
+.tab-content > .active {
   display: block;
 }
 
@@ -277,50 +280,57 @@ li.active a:before {
   margin-top: 4px;
 }
 
-.tab-content{
+.tab-content {
   position: relative;
 }
-.tab-pane .postImage img{
+
+.tab-pane .postImage img {
   border-radius: 25px;
   width: 75px;
   height: 75px;
 }
-.tab-pane{
+
+.tab-pane {
   border-radius: 25px;
   color: black;
   background-color: #d3e4ff;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.postImage{
+
+.postImage {
   border-radius: 25px;
   padding-top: 20px;
   left: 63px;
   margin-bottom: 5px;
   position: absolute;
 }
-.postInfo{
+
+.postInfo {
   position: absolute;
   left: 142px;
   color: #a3a3a3;
   padding-top: 46px;
 }
-.postSource{
+
+.postSource {
   font-weight: 900;
   left: 142px;
   padding-top: 50px;
   position: absolute;
   color: #919191;
 }
-.postTitle{
+
+.postTitle {
   font-weight: 900;
   font-size: 23px;
   left: 142px;
   position: absolute;
-  padding-top:15px;
+  padding-top: 15px;
   color: #2c66c1;
 }
-.postVotes{
+
+.postVotes {
   font-weight: 900;
   font-size: 20px;
   position: absolute;
@@ -328,20 +338,23 @@ li.active a:before {
   padding-top: 40px;
   color: #919191;
 }
-.up img{
+
+.up img {
   position: absolute;
   height: 30px;
   width: 30px;
   left: 20px;
   padding-top: 11px;
 }
-.down img{
+
+.down img {
   position: absolute;
   height: 20px;
   width: 30px;
   left: 20px;
   padding-top: 65px;
 }
+
 .siteTopRight3 {
   position: absolute;
   font-size: 11px;

@@ -297,7 +297,7 @@ export class ShowBestComponent {
       check = true;
       for (let i = 0; i < this.masterPostList.length - count; i++) {
         // tslint:disable-next-line:max-line-length
-        if ((this.masterPostList[i].time) > (this.masterPostList[i + 1].time)){
+        if ((this.masterPostList[i].time) > (this.masterPostList[i + 1].time)) {
           hold.push(this.masterPostList[i]);
           hold.push(this.masterPostList[i + 1]);
           this.masterPostList[i] = hold[1];
