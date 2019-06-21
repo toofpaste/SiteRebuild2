@@ -1,21 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Injectable } from '@angular/core';
 import {Posts} from './models/posts.model';
-// tslint:disable-next-line:import-blacklist
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import {PostsService} from './posts.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  providers: [PostsService]
 })
 @Injectable()
 export class AppComponent{
-  items: FirebaseListObservable<any[]>;
-  constructor(private database: AngularFireDatabase){
-    this.items = database.list('posts');
-    console.log(this.items);
+  item: FirebaseListObservable<any[]>;
+  constructor(private postService: PostsService){
+    this.item = postService.getPosts();
+    // this.item.subscribe(items => {
+    //
+    // });
   }
+
   title = 'Reddit';
   postKarma = '5,432';
   commentKarma = '9,234';
@@ -413,7 +417,6 @@ export class AppComponent{
     }
     return this.masterPostList;
   }
-
 
 }
 
