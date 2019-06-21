@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {Posts} from './models/posts.model';
 
 @Component({
@@ -7,6 +7,7 @@ import {Posts} from './models/posts.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'Reddit';
   postKarma = '5,432';
   commentKarma = '9,234';
