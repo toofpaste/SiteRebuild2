@@ -7,10 +7,10 @@ import {AppComponent} from '../app.component';
   styleUrls: ['./welcome.component.css']
 })
 export class WelcomeComponent implements OnInit {
-  apps: AppComponent = new AppComponent();
-  userName = this.apps.getUserName();
-  postKarma = this.apps.getPostKarma();
-  commentKarma = this.apps.getCommentKarma();
+  // apps: AppComponent = new AppComponent();
+  // userName = this.apps.getUserName();
+  // postKarma = this.apps.getPostKarma();
+  // commentKarma = this.apps.getCommentKarma();
   constructor() { }
 
   ngOnInit() {
