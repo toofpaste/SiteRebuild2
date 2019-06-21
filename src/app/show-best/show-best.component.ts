@@ -288,6 +288,7 @@ export class ShowBestComponent {
   showBest() {
     this.hideAll();
     this.showBestCheck = true;
+    
   }
 
   showHot() {

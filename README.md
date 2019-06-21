@@ -8,7 +8,7 @@
 
 ## Setup/Installation Requirements
 
-* _Clone the repo from github https://github.com/toofpaste/DrLookup_
+* _Clone the repo from github https://github.com/toofpaste/SiteRebuild2_
 * _run "npm install"_
 * _run "ng serve"_
 * _go to http://localhost:4200 in your browser_
