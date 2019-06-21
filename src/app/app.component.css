@@ -224,8 +224,6 @@ li.active a:before {
   height: 30px;
 }
 
-
-ERROR in node_modules/@angular/fire/firebase.app.module.d.ts(2,26): error TS2305: Module '"C:/Users/mlarr/desktop/SiteRebuild/node_modules/firebase/app"' has no exported member 'firestore'.
 #siteLogo p {
   color: #333333;
   margin-top: 17px;
