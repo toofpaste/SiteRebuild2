@@ -9,19 +9,10 @@ import { ShowNewComponent } from './show-new/show-new.component';
 import { ShowRisingComponent } from './show-rising/show-rising.component';
 import { ShowControversialComponent } from './show-controversial/show-controversial.component';
 import { ShowTopComponent } from './show-top/show-top.component';
-import { masterFirebaseConfig } from './api-keys';
-import { AngularFireModule } from 'angularfire2';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AngularFireStorageModule } from '@angular/fire/storage';
-import {environment} from '../environments/environment';
+import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire';
 
-export const firebaseConfig = {
-  apiKey: masterFirebaseConfig.apiKey,
-  authDomain: masterFirebaseConfig.authDomain,
-  databaseURL: masterFirebaseConfig.databaseURL,
-  storageBucket: masterFirebaseConfig.storageBucket
-};
 
 @NgModule({
   declarations: [
@@ -37,8 +28,6 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
     routing,
-    AngularFireStorageModule,
-    AngularFirestoreModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule
   ],

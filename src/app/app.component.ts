@@ -1,18 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Injectable } from '@angular/core';
 import {Posts} from './models/posts.model';
-import { AngularFirestore } from '@angular/fire/firestore';
 // tslint:disable-next-line:import-blacklist
-import { Observable } from 'rxjs';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  items: Observable<any[]>;
-  constructor(db: AngularFirestore){
-    this.items = db.collection('items').valueChanges();
+@Injectable()
+export class AppComponent{
+  items: FirebaseListObservable<any[]>;
+  constructor(private database: AngularFireDatabase){
+    this.items = database.list('posts');
+    console.log(this.items);
   }
   title = 'Reddit';
   postKarma = '5,432';
