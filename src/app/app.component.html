@@ -1,3 +1,95 @@
 
-<app-show-best>Loading Reddit</app-show-best>
 
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:700&display=swap" rel="stylesheet">
+
+</header>
+<div class="bodyNav">
+  <ul class="nav nav-tabs">
+    <li id="siteLogo">
+      <p class="pClass"><a href="#main-nav" class="open-menu"><img src="./assets/redditIcon.png"></a>{{title}}</p>
+    </li>
+
+    <li class="active siteGuide">
+      <a href="/best" data-toggle="tab">best</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab2" data-toggle="tab">hot</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab3" data-toggle="tab">new</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4" data-toggle="tab">rising</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4"  data-toggle="tab">controversial</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4"  data-toggle="tab">top</a>
+    </li>
+    <li class="siteGuide">
+      <a href="https://en.wikipedia.org/wiki/Reddit" data-toggle="tab">wiki</a>
+    </li>
+    <li class="siteTopRight1">
+      <a href="#tab4" data-toggle="tab">  {{myUserName}}</a>
+    </li>
+    <li class="siteTopRight2">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/redditLogo.png"></a>
+    </li>
+    <li class="siteTopRight3">
+      <a href="#tab4" data-toggle="tab">({{postKarma}} - {{commentKarma}})</a>
+    </li>
+    <li class="siteTopRight4">
+      <a href="#tab4" data-toggle="tab"> | <img src="./assets/mail.png"> | </a>
+    </li>
+    <li class="siteTopRight5">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/message.png"> |</a>
+    </li>
+    <li class="siteTopRight6">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/settings.png"> |</a>
+    </li>
+    <li class="siteTopRight7">
+      <a href="#tab4" data-toggle="tab">logout</a>
+    </li>
+
+  </ul>
+
+
+</div>
+<input type="checkbox" id="menu" class="menu-cek">
+<label for="menu" class="menu-btn">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</label>
+
+<aside class="sidebar">
+  <ul>
+    <li><input type="text" placeholder="Search.."></li>
+    <li><img src="./assets/button1.JPG"></li>
+    <li><img src="./assets/button2.JPG"></li>
+    <li><img src="./assets/redditGold.JPG"></li>
+    <li><img src="./assets/button3.JPG"></li>
+    <li><img src="./assets/bottomImage.JPG"></li>
+    <li><a href="#tab1" (click)="showBest()" data-toggle="tab">best</a></li>
+    <li><a href="#tab2" (click)="showHot()" data-toggle="tab">hot</a></li>
+    <li><a href="#tab3" (click)="showNew()" data-toggle="tab">new</a></li>
+    <li><a href="#tab4" (click)="showRising()" data-toggle="tab">rising</a></li>
+    <li><a href="#tab4" (click)="showControversial()" data-toggle="tab">controversial</a></li>
+    <li><a href="#tab4" (click)="showTop()" data-toggle="tab">top</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Reddit" data-toggle="tab">wiki</a></li>
+    <li><img src="./assets/redditIcon.png"></li>
+    <li><img src="./assets/redditIcon.png"></li>
+    <li><img src="./assets/redditIcon.png"></li>
+    <li><img src="./assets/redditIcon.png"></li>
+    <li><img src="./assets/redditIcon.png"></li>
+    <li><img src="./assets/redditIcon.png"></li>
+    <li><img src="./assets/redditIcon.png"></li>
+  </ul>
+</aside>
+
+
+<app-show-best>Loading Reddit</app-show-best>

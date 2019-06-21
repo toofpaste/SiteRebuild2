@@ -3,8 +3,8 @@ import {Posts} from '../models/posts.model';
 
 @Component({
   selector: 'app-show-best',
-  templateUrl: './show-best.component.html',
-  styleUrls: ['./show-best.component.css']
+  templateUrl: './showBest.component.html',
+  styleUrls: ['./showBest.component.css']
 })
 export class ShowBestComponent {
   title = 'reddit';
@@ -15,9 +15,6 @@ export class ShowBestComponent {
   showControversialCheck = false;
   showTopCheck = false;
   showCommentsCheck = false;
-  postKarma = '5,432';
-  commentKarma = '9,234';
-  myUserName = 'XxXTheBestUserXxX';
   // tslint:disable-next-line:max-line-length
   comments: string[] = ['LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice', 'LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice', 'LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice', 'LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice', 'LOL', 'ok then', 'i see how it is', 'not a bad job to be honest', 'could be worse', 'honestly its hard for me to poop', 'why did you comment that', 'im not sure what else to add here', 'i might add some child comments to make it all look nice'];
   masterPostList: Posts[] = [
@@ -288,7 +285,7 @@ export class ShowBestComponent {
   showBest() {
     this.hideAll();
     this.showBestCheck = true;
-    
+
   }
 
   showHot() {

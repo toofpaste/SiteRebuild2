@@ -1,6 +1,6 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {ShowBestComponent} from './show-best.component';
+import {ShowBestComponent} from './showBest.component';
 
 describe('ShowBestComponent', () => {
   let component: ShowBestComponent;

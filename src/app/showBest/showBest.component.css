@@ -1,0 +1,93 @@
+
+
+.postImage {
+  border-radius: 2px;
+  padding-top: 20px;
+  left: 63px;
+  margin-bottom: 5px;
+  position: absolute;
+}
+
+.postInfo {
+  position: absolute;
+  left: 142px;
+  color: #a3a3a3;
+  padding-top: 42px;
+}
+
+.postSource {
+  font-weight: 900;
+  left: 142px;
+  padding-top: 41px;
+  position: absolute;
+  color: #919191;
+}
+
+.postTitle {
+  line-height: 23px;
+
+  font-weight: 900;
+  font-size: 20px;
+  left: 142px;
+  position: absolute;
+  padding-top: 18px;
+  color: #2c66c1;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.postVotes {
+  font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  left: 18px;
+  padding-top: 40px;
+  color: #919191;
+}
+.context {
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.tab-content {
+  position: relative;
+}
+
+.up img {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 20px;
+  padding-top: 11px;
+}
+
+.down img {
+  position: absolute;
+  height: 20px;
+  width: 30px;
+  left: 20px;
+  padding-top: 65px;
+}
+
+div .sortTitle {
+ text-align: -moz-left;
+  color: #2c66c1;
+  font-family: 'Catamaran', sans-serif;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.tab-pane .postImage img {
+  border-radius: 4px;
+  width: 75px;
+  height: 75px;
+}
+
+.tab-pane {
+  margin: 2px;
+  margin-left: 5px;
+  border-radius: 4px;
+  background: #cdddf7;
+}
