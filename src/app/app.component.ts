@@ -280,6 +280,15 @@ export class AppComponent {
   getPosts() {
     return this.masterPostList;
   }
+  getPostKarma(){
+    return this.postKarma;
+  }
+  getCommentKarma(){
+    return this.commentKarma;
+  }
+  getUserName(){
+    return this.myUserName;
+  }
   showHot() {
     let check = false;
     let count = 0;

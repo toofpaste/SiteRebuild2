@@ -1,0 +1,32 @@
+.welcome{
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  margin: auto auto auto;
+  color: #333333;
+  background-color: #eaf2ff;
+
+}
+h4{
+  font-family: 'Varela Round', sans-serif;
+  margin-left: 100px;
+  color: #333333;
+}
+
+.accInfo{
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 100px;
+  color: #333333;
+}
+
+.jumbotron {
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.num {
+  color: red;
+}

@@ -225,10 +225,14 @@ li.active a:before {
 }
 
 #siteLogo p {
+  color: #333333;
   margin-top: 17px;
   margin-right: -20px;
   font-family: 'Varela Round', sans-serif;
   font-size: 30px;
+}
+#siteLogo a{
+  color: #333333;
 }
 
 .siteTopRight1 img, .siteTopRight2 img, .siteTopRight3 img, .siteTopRight4 img, .siteTopRight5 img, .siteTopRight6 img, .siteTopRight7 img {
