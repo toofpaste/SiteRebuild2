@@ -91,5 +91,9 @@
   </ul>
 </aside>
 
-
+<ul>
+  <li class="text" *ngFor="let item of items | async">
+    {{item.username}}
+  </li>
+</ul>
 <router-outlet></router-outlet>

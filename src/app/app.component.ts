@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Posts} from './models/posts.model';
+import { AngularFirestore } from '@angular/fire/firestore';
+// tslint:disable-next-line:import-blacklist
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +10,10 @@ import {Posts} from './models/posts.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  items: Observable<any[]>;
+  constructor(db: AngularFirestore){
+    this.items = db.collection('items').valueChanges();
+  }
   title = 'Reddit';
   postKarma = '5,432';
   commentKarma = '9,234';

@@ -9,8 +9,8 @@ import {AppComponent} from '../app.component';
 })
 export class ShowTopComponent implements OnInit {
   title = 'reddit';
-  apps: AppComponent = new AppComponent();
-  masterPostList: Posts[] =  this.apps.showTop();
+  // apps: AppComponent = new AppComponent();
+  // masterPostList: Posts[] =  this.apps.showTop();
 
     ngOnInit() {
     }

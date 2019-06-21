@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {Posts} from '../models/posts.model';
 import {AppComponent} from '../app.component';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-show-best',
@@ -9,8 +10,8 @@ import {AppComponent} from '../app.component';
 })
 export class ShowBestComponent {
   title = 'reddit';
-  apps: AppComponent = new AppComponent();
-  masterPostList: Posts[] =  this.apps.getPosts();
+  // apps: AppComponent = new AppComponent();
+  // masterPostList: Posts[] =  this.apps.getPosts();
 }
 
 // public title: string

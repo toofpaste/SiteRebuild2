@@ -9,8 +9,8 @@ import {Posts} from '../models/posts.model';
 })
 export class ShowHotComponent implements OnInit {
   title = 'reddit';
-  apps: AppComponent = new AppComponent();
-  masterPostList: Posts[] =  this.apps.showHot();
+  // apps: AppComponent = new AppComponent();
+  // masterPostList: Posts[] =  this.apps.showHot();
   ngOnInit() {
   }
 
