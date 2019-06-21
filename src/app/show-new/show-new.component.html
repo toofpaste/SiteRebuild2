@@ -1,3 +1,18 @@
-<p>
-  show-new works!
-</p>
+<section >
+  <div class="tab-content">
+    <div>
+      <p class="sortTitle">Newest Reddit Posts</p>
+      <div class="tab-pane active" id="tab1" *ngFor="let post of masterPostList">
+        <p><span class="up"><img src="./assets/upArrow.png"></span><span class="postVotes">{{post.upvotes}}</span><span
+          class="down"><img src="./assets/downArrow.png"></span><span class="postImage"> <img src="{{post.thumbnail}}"> </span><span
+          class="postTitle"><a href="{{post.link}}">{{post.title}}</a></span><br> <span
+          class="postInfo">submitted {{post.time}}
+          hours ago by {{post.username}} to {{post.subreddit}} </span> <br> <span class="postSource"> {{post.commentNum}} comments <a
+          href="{{post.link}}">   source</a></span></p>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</section>

@@ -340,3 +340,7 @@ div .sortTitle {
   height: 21px;
 
 }
+
+.sidebar{
+  z-index: 1000;
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {AppComponent} from '../app.component';
+import {Posts} from '../models/posts.model';
 
 @Component({
   selector: 'app-show-rising',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShowRisingComponent implements OnInit {
 
-  constructor() { }
+  title = 'reddit';
+  apps: AppComponent = new AppComponent();
+  masterPostList: Posts[] =  this.apps.showRising();
 
   ngOnInit() {
   }
