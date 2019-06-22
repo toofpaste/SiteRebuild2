@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Posts } from './models/posts.model';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()

@@ -12,8 +12,14 @@ import { ShowTopComponent } from './show-top/show-top.component';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire';
+import { masterFirebaseConfig } from './api-keys';
 
-
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +34,7 @@ import { AngularFireModule } from '@angular/fire';
   imports: [
     BrowserModule,
     routing,
-    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
   providers: [],
